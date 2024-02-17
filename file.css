@@ -1,0 +1,163 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script&family=Montserrat:wght@100&family=Pixelify+Sans:wght@400;500;600;700&family=Playfair+Display&display=swap'); */
+
+body {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+html {
+    font-size:20px;
+    font-family:'Dancing Script','serife';
+    text-transform:capitalize;
+}
+
+svg {
+    width:40px;
+}
+button {
+    width: 200px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    height: 45px;
+    font-weight: bold;
+    margin-top: 28px;
+    font-family: none;
+    color:white;
+}
+
+a{
+    color:gray;
+    text-transform:capitalize;
+    margin-right:10px;
+}
+
+section ,footer{
+    width:80%;
+    margin:auto;
+    margin-top:150px;
+}
+
+.great {
+    position: absolute;
+    left:20%;
+    top:20%;
+}
+@media screen and (max-width:600px){
+.great{
+    left:12%;
+    top:4%;
+}
+}
+.type {
+    width: 20%;
+    background-color: gainsboro;
+    padding: 7px;
+    border-radius: 10px;
+}
+@media screen and (max-width:600px){
+.type {
+width:100% !important;
+}
+}
+.mytype ,.step{
+    width:20%;
+}
+@media screen and (max-width:600px){
+    .mytype,.step {
+    width:100% !important;
+}
+}
+.mytype img {
+    width:100px;
+}
+
+.mytype h2 {
+    font-size:1.3rem;
+    font-weight:bold;
+}
+
+.feature {
+    background-color: #1b391b;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media screen and (max-width:700px){
+.feature {
+width:100%;
+margin-top:30px;
+margin-bottom:30px;
+}
+}
+
+.ff {
+top:60%;
+}
+.feature h2 {
+    font-weight: bold;
+    font-size: larger;
+    text-transform: capitalize;
+}
+.feature p {
+    font-family: none;
+    font-size: 0.7rem;
+}
+
+.circle {
+    border: 2px solid darkgreen;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.line {
+    border-bottom: 2px solid #e0e028;
+    width: 30%;
+
+}
+.step {
+    width:20%;
+}
+
+.step h2 {
+    font-size: 2.5rem;
+    color: #fadbad;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
+.step h3 {
+    font-weight:bold;
+    font-size:2rem;
+    font-family:none;
+    margin-bottom:30px;
+
+}
+
+.step p {
+    font-size:0.7rem;
+    color:gray;
+}
+.test h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #275b27;
+}
+
+.pragraph p {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+.pragraph span {
+    color:darkgreen;
+}
+footer img {
+    width:30px;
+}
